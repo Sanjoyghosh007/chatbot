@@ -105,27 +105,25 @@
         }
         
         /* Chat Button */
-        #chatButton {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 4px 15px rgba(255, 154, 158, 0.3);
-            z-index: 999;
-        }
-        
-        #chatButton img {
-            width: 30px;
-            height: 30px;
-            filter: brightness(0) invert(1);
-        }
+       
+            <!-- Floating Chat Button -->
+<div id="chatButton">
+    <!-- Robot Chatbot Icon with Beauty Colors -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+        <!-- Background circle -->
+        <circle cx="12" cy="12" r="11" fill="#ff9a9e"/>
+        <!-- Robot head -->
+        <rect x="7" y="8" width="10" height="8" rx="2" fill="white"/>
+        <!-- Eyes -->
+        <circle cx="9.5" cy="11" r="1" fill="#ff9a9e"/>
+        <circle cx="14.5" cy="11" r="1" fill="#ff9a9e"/>
+        <!-- Mouth -->
+        <path d="M10 14.5h4" stroke="#ff9a9e" stroke-width="1" fill="none"/>
+        <!-- Antenna -->
+        <circle cx="12" cy="6" r="1" fill="#ff6b8b"/>
+        <path d="M12 7v1" stroke="#ff6b8b" stroke-width="1" fill="none"/>
+    </svg>
+</div>           
         
         /* Quick Replies */
         .quick-replies {
